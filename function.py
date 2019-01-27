@@ -38,3 +38,19 @@ def wash(dry=False, water=8):
 		print('烘衣')
 
 wash() #use function dry=True
+
+
+def add(x, y):
+	return x + y #回傳將結果存上
+
+result = add(3,4)
+print(result)
+
+def average(numbers): #平均
+	avg = sum(numbers) / len(numbers) #加總
+	return avg
+a = average([1, 2, 3]) #將結果存到a, 因為有return功能
+print(a)
+
+print(average([1, 2, 3]))
+print(average([12, 23, 34]))
