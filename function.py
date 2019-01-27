@@ -52,5 +52,13 @@ def average(numbers): #平均
 a = average([1, 2, 3]) #將結果存到a, 因為有return功能
 print(a)
 
-print(average([1, 2, 3]))
+print(average([1, 2, 3])) 
 print(average([12, 23, 34]))
+
+def add(x, y):
+	print(1, 6)
+
+def hello(x=1, y):
+	print(x, y)
+	
+hello(3 ,4)
