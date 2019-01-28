@@ -58,7 +58,16 @@ print(average([12, 23, 34]))
 def add(x, y):
 	print(1, 6)
 
-def hello(x=1, y):
+# def hello(x=1, y): # 不會印沒參數的要放在前面
 	print(x, y)
-	
-hello(3 ,4)
+
+
+
+def sum_of_list(x, y, z):
+    return x + y + z
+result = sum_of_list(1,2,3)
+print(result)
+
+def sum_of_list(x,y,z):
+    return x+y+z
+print(sum_of_list(1,2,3))
